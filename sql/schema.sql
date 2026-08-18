@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS teams (
+    team_id INTEGER PRIMARY KEY AUTOINCREMENT,
+    team_name TEXT NOT NULL,
+    short_name TEXT NOT NULL UNIQUE
+);
